@@ -1,3 +1,48 @@
-<p>
-  graphics works!
-</p>
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graphics.graphics1.legend}}</h4>
+                <app-graphic-doughnut [chartData]="graphics.graphics1.data" [chartLabels]="graphics.graphics1.labels" [chartType]="graphics.graphics1.type"></app-graphic-doughnut>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graphics.graphics2.legend}}</h4>
+                <app-graphic-doughnut [chartData]="graphics.graphics2.data" [chartLabels]="graphics.graphics2.labels" [chartType]="graphics.graphics2.type"></app-graphic-doughnut>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graphics.graphics3.legend}}</h4>
+                <app-graphic-doughnut [chartData]="graphics.graphics3.data" [chartLabels]="graphics.graphics3.labels" [chartType]="graphics.graphics3.type"></app-graphic-doughnut>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">{{graphics.graphics4.legend}}</h4>
+                <app-graphic-doughnut [chartData]="graphics.graphics4.data" [chartLabels]="graphics.graphics4.labels" [chartType]="graphics.graphics4.type"></app-graphic-doughnut>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- End PAge Content -->
+<!-- ============================================================== -->

@@ -18,12 +18,12 @@ import { PagesModule } from './pages/pages.module';
     AppComponent,
     LoginComponent,
     RegisterComponent
-  ],
+    ],
   imports: [
     BrowserModule,
     APP_ROUTES,
     PagesModule
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
