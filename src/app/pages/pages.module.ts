@@ -18,6 +18,7 @@ import { IncrementComponent } from '../components/increment/increment.component'
 import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic-doughnut.component';
 
 import { ChartsModule } from 'ng2-charts';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -27,12 +28,14 @@ import { ChartsModule } from 'ng2-charts';
         ProgressComponent,
         DashboardComponent,
         IncrementComponent,
-        GraphicDoughnutComponent
+        GraphicDoughnutComponent,
+        AccountSettingsComponent
     ],
     exports: [
         GraphicsComponent,
         ProgressComponent,
-        DashboardComponent
+        DashboardComponent,
+        AccountSettingsComponent
     ],
     imports: [
         SharedModule,
