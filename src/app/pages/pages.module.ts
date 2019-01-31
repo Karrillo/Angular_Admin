@@ -19,6 +19,8 @@ import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic
 
 import { ChartsModule } from 'ng2-charts';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         DashboardComponent,
         IncrementComponent,
         GraphicDoughnutComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent
     ],
     exports: [
         GraphicsComponent,
